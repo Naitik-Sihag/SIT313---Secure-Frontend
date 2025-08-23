@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+.image-box {
+  height: 200px;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+
+.section {
+  text-align: center;
+  padding: 20px;
+}
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+}
+.card img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+.see-all {
+  padding: 5px 15px;
+  margin-top: 10px;
+}
+.newsletter {
+  background: #eee;
+  padding: 15px;
+  text-align: center;
+}
+.newsletter-box {
+  margin-top: 10px;
+}
+.newsletter input {
+  padding: 5px;
+  width: 200px;
+}
+.newsletter button {
+  padding: 6px 12px;
+  margin-left: 5px;
+}
+.footer {
+  background: teal;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.footer-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.footer h4 {
+  margin-bottom: 5px;
+}
+.links {
+  font-size: 12px;
+}
