@@ -1,0 +1,48 @@
+/* Header layout */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid rgb(201, 195, 195);
+  background: rgb(228, 227, 227);
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+.search-bar {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+}
+.search-bar input {
+  padding: 6px;
+  width: 300px;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 3px 0 0 3px;
+}
+.search-bar .search-btn {
+  padding: 6px 12px;
+  border: 1px solid rgb(204, 204, 204);
+  border-left: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 3px 3px 0;
+}
+.search-bar .search-btn:hover {
+  background: #333;
+}
+.nav button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  border: 1px solid rgb(204, 204, 204);
+  background: white;
+  cursor: pointer;
+}
+.nav button:hover {
+  background: rgb(240, 240, 240);
+}
