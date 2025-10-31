@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+
+
+
+<head>
+
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
+  <script src="./src/script.js" defer></script>
+  <link rel="stylesheet" href="./src/style.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "gpol1Nz2glNrznl05",
+      });
+    })();
+  </script>
+</head>
+
+<body>
+
+  <form>
+    <div class="mailing">
+      <h5>SIGN UP FOR OUR DAILY INSIDER</h5>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <button type="submit" onclick="sendMail(); return false;">Subscribe</button>
+    </div>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+/* Reset default margins */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
+  background-color: #fff;   /* Optional: background */
+}
+
+/* Mailing box style */
+.mailing {
+  background: #ddd;
+  padding: 20px 30px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.mailing input[type="email"] {
+  padding: 8px;
+  margin: 10px 5px;
+}
+
+.mailing button {
+  padding: 8px 15px;
+  cursor: pointer;
+}
